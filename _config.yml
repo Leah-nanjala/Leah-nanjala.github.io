@@ -24,9 +24,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@domain.com
-author: GitHub User
+title: Digital Fortress
+email: leah-nanjala@digitalfortress.com
+author: DF
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
@@ -40,10 +40,10 @@ author: GitHub User
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
+copyright: "Unpublished Work (cleft) -{currentYear} {author}"
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
+  Welcome to Digital Fortress, where cybersecurity professionals unite to master the intricate world of cloud security and drive awareness within the digital community. Our mission is to empower individuals with the knowledge, skills, and tools necessary to safeguard their digital assets in an ever-evolving cyber landscape.
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 
