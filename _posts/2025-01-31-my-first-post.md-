@@ -1,0 +1,16 @@
+---
+layout: post
+title: How I Built My Website
+subtitle: Quick Summary
+categories: website
+tags: [Github, website]
+---
+
+## Introduction
+In this post, I'll walk you through the steps I took to build my website, which I cloned from DataMaunz. This includes setting up the repository, customizing the site, and deploying it.
+
+## Step 1: Cloning the Repository
+1. **Find the Repository**: Visit the DataMaunz GitHub page and locate the repository you want to clone.
+2. **Clone the Repository**: Open your terminal and run the following command:
+   ```bash
+   git clone https://github.com/DataMaunz/your-chosen-repo.git
