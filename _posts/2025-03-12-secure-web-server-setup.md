@@ -1,4 +1,4 @@
-
+---
 layout: post
 title: Configuring a Secure Web Server on a Local Machine
 subtitle: Enhancing Web Server Security with Apache, SSL/TLS, and Firewall Rules
