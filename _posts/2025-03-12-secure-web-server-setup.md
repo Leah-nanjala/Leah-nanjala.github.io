@@ -16,13 +16,6 @@ Tasks:
 3.     Implement Firewall Rules: Use a firewall like UFW (Uncomplicated Firewall) to control traffic.
 4.     Secure Configuration: Apply best practices for securing the web server configuration.
 Tools: Apache OpenSSL, UFW
-Project 2: Conducting a Vulnerability Assessment Using Free Tools
-Objective: Perform a basic vulnerability assessment of your local network or a local web application. Tasks:
-1.     Install Vulnerability Scanners: Install tools like OpenVAS or Nikto on your local machine.
-2.     Scan for Vulnerabilities: Run scans on your local network or a web application.
-3.     Analyze Results: Review the scan results and identify potential vulnerabilities.
-4.     Mitigate Vulnerabilities: Implement mitigation measures for the identified vulnerabilities.
-Tools: OpenVAS, Nikto
 Project 1: Configuring a Secure Web Server on a Local Machine
 Introduction
 This lab focuses on setting up and securing a local web server. With the growing reliance on web applications and services, understanding web security fundamentals has never been more critical.
