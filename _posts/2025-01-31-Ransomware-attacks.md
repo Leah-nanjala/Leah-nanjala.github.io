@@ -1,4 +1,3 @@
----
 layout: post
 title: Understanding and Preventing Ransomware Attacks
 subtitle: Protecting Your Data from Ransomware Threats
@@ -7,10 +6,11 @@ tags: [Ransomware, Cybersecurity, Best Practices]
 ---
 
 ## Introduction
-Ransomware is a type of malware that encrypts your data, making it inaccessible until a ransom is paid[_{{{CITATION{{{_1{9 Tips to Prevent Ransomware Attacks - Fortinet](https://www.fortinet.com/resources/cyberglossary/how-to-prevent-ransomware). This post explores what ransomware is, how it works, and best practices for preventing and mitigating ransomware attacks.
+Ransomware is a type of malware that encrypts your data, making it inaccessible until a ransom is paid. [9 Tips to Prevent Ransomware Attacks - Fortinet](https://www.fortinet.com/resources/cyberglossary/how-to-prevent-ransomware). This post explores what ransomware is, how it works, and best practices for preventing and mitigating ransomware attacks.
 
 ## What is Ransomware?
-Ransomware is malicious software designed to block access to a computer system or data until a sum of money is paid[_{{{CITATION{{{_2{How to Prevent Ransomware Attacks: Top 10 Best Practices](https://www.upguard.com/blog/best-practices-to-prevent-ransomware-attacks). Attackers often demand payment in cryptocurrency to avoid tracking[_{{{CITATION{{{_2{How to Prevent Ransomware Attacks: Top 10 Best Practices](https://www.upguard.com/blog/best-practices-to-prevent-ransomware-attacks). Ransomware can spread through phishing emails, infected websites, or software vulnerabilities[_{{{CITATION{{{_2{How to Prevent Ransomware Attacks: Top 10 Best Practices](https://www.upguard.com/blog/best-practices-to-prevent-ransomware-attacks).
+Ransomware is malicious software designed to block access to a computer system or data until a sum of money is paid. [How to Prevent Ransomware Attacks: Top 10 Best Practices](https://www.upguard.com/blog/best-practices-to-prevent-ransomware-attacks). Attackers often demand payment in cryptocurrency to avoid tracking. Ransomware can spread through phishing emails, infected websites, or software vulnerabilities.
+(https://www.upguard.com/blog/best-practices-to-prevent-ransomware-attacks).
 
 ## Common Types of Ransomware
 1. **Encryption Ransomware**: Encrypts files on the victim's device, making them inaccessible without a decryption key[_{{{CITATION{{{_2{How to Prevent Ransomware Attacks: Top 10 Best Practices](https://www.upguard.com/blog/best-practices-to-prevent-ransomware-attacks).
