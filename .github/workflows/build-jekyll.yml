@@ -1,17 +1,18 @@
-name: Github Pages
+name: GitHub Pages
 
 on:
   push:
     branches:
-      - master  # Here source code branch is `master`, it could be other branch
+      - main  # Updated to use the 'main' branch as the source.
 
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
+      # Check out the repository
       - uses: actions/checkout@v2
 
-      # Use GitHub Actions' cache to cache dependencies on servers
+      # Cache dependencies to speed up builds
       - uses: actions/cache@v1
         with:
           path: vendor/bundle
@@ -19,15 +20,15 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
 
-      # Use GitHub Deploy Action to build and deploy to Github
+      # Build and deploy using Jeffrey Tse's Jekyll Deploy Action
       - uses: jeffreytse/jekyll-deploy-action@master
         with:
           provider: 'github'
-          token: ${{ secrets.GITHUB_TOKEN }} # It's your Personal Access Token(PAT)
-          repository: ''             # Default is current repository
-          branch: 'gh-pages'         # Default is gh-pages for github provider
-          jekyll_src: './'           # Default is root directory
-          jekyll_cfg: '_config.yml'  # Default is _config.yml
-          jekyll_baseurl: '/jekyll-theme-yat'  # Default is empty
-          cname: ''                  # Default is to not use a cname
-          actor: ''                  # Default is the GITHUB_ACTOR
+          token: ${{ secrets.GITHUB_TOKEN }} # Automatically provided by GitHub Actions
+          repository: ''             # Leave empty to use the current repository
+          branch: 'gh-pages'         # Target branch for deployment
+          jekyll_src: './'           # Directory containing your Jekyll source
+          jekyll_cfg: '_config.yml'  # Path to your _config.yml file
+          jekyll_baseurl: ''         # Base URL, leave empty if not using subdirectories
+          cname: ''                  # Add your custom domain here if you have one
+          actor: ''                  # Defaults to the GITHUB_ACTOR
