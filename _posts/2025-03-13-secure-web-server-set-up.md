@@ -18,7 +18,7 @@ This project involves setting up and securing a web server on a local machine. K
 - **Foundation Building**: Understand the basics of server security, including HTTPS and firewall settings.
 - **Problem Solving**: Gain experience in troubleshooting common issues like port conflicts and SSL errors.
 
-This project is a great starting point for anyone exploring cybersecurity concepts in a practical, approachable way.
+This project is a great starting point for anyone exploring cybersecurity concepts in a practical and approachable way.
 
 
 
