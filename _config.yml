@@ -1,0 +1,44 @@
+
+# Welcome to Jekyll!
+
+# Site settings
+title: Digital Fortress
+email: leah-nanjala@digitalfortress.com
+author: DF
+
+# Copyright setting
+copyright: "Unpublished Work (cleft) - {currentYear} {author}"
+
+description: >-
+  Welcome to Digital Fortress, where cybersecurity professionals unite to master
+  the intricate world of cloud security and drive awareness within the digital
+  community. Our mission is to empower individuals with the knowledge, skills,
+  and tools necessary to safeguard their digital assets in an ever-evolving cyber
+  landscape.
+
+# Base URL settings
+baseurl: "/leah-nanjala" # The subpath of your site (leave blank if at root)
+url: "https://leah-nanjala.github.io" # Your GitHub Pages URL
+
+favicon: "/assets/images/favicon.ico" # Path to your favicon
+
+# Sitemap
+sitemap: true
+
+# Theme
+theme: jekyll-theme-primer
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Markdown settings
+markdown: kramdown
+kmarkdown:
+  input: GFM
+
+# Pagination setting
+paginate: 5
