@@ -16,18 +16,24 @@ description: >-
   landscape.
 
 # Base URL settings
-baseurl: "/leah-nanjala" # The subpath of your site (leave blank if at root)
-url: "https://leah-nanjala.github.io" # Your GitHub Pages URL
+baseurl: "/leah-nanjala"
+url: "https://leah-nanjala.github.io"
 
-favicon: "/assets/images/favicon.ico" # Path to your favicon
+favicon: "/assets/images/favicon.ico"
 
 # Sitemap
 sitemap: true
 
 # Theme
 theme: jekyll-theme-primer
+header:
+  overlay_image: /assets/images/banner.jpg
+  overlay_filter: 0.3
+  actions:
+    - label: "View Posts"
+      url: "/posts/"
 
-# Encoding and Markdown Processing (ADDED/CORRECTED)
+# Encoding and Markdown Processing
 encoding: UTF-8
 markdown: kramdown
 kramdown:
