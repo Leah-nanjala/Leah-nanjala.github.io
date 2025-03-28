@@ -1,84 +1,31 @@
 ---
-# Homepage Configuration
-layout: home  # Changed from 'articles' to 'home' for better theme compatibility
+layout: home
 title: "Digital Fortress"
-subtitle: "Cybersecurity Knowledge Hub"
-banner: "/assets/images/banners/cloud_sec.jpeg"  # Your existing banner path
-header:
-  overlay_color: "#000"  # Fallback color
-  overlay_filter: 0.5    # Image darkening (0=transparent, 1=solid)
-  actions:
-    - label: "View Latest Posts"
-      url: "/posts/"
-featured:
-  - title: "Vulnerability Assessment"
-    excerpt: "Master tools like Nikto and OpenVAS"
-    url: "/vulnerability-assessment/"
-    icon: "shield-lock"
-  - title: "Cloud Security"
-    excerpt: "AWS/Azure/GCP hardening guides"
-    url: "/cloud-security/"
-    icon: "cloud"
-  - title: "Ethical Hacking"
-    excerpt: "Hands-on penetration testing labs"
-    url: "/ethical-hacking/"
-    icon: "bug"
+banner: "/assets/images/banners/cloud_sec.jpeg"
 ---
 
-<section class="home-content">
-  <div class="text-center">
-    <h2>Welcome to Digital Fortress</h2>
-    <p class="lead">Practical cybersecurity resources for professionals and beginners</p>
-    
-    <div class="mt-4">
-      <a href="/about/" class="btn btn-purple mr-2">About Us</a>
-      <a href="/contact/" class="btn btn-blue">Contact</a>
-    </div>
-  </div>
-
-  <div class="feature-grid mt-5">
-    {% for item in page.featured %}
-    <div class="feature-card">
-      <div class="icon-container">
-        {% octicon {{ item.icon }} height:24 %}
-      </div>
-      <h3>{{ item.title }}</h3>
-      <p>{{ item.excerpt }}</p>
-      <a href="{{ item.url }}" class="btn btn-outline">Learn More →</a>
-    </div>
+<section class="home">
+  <h2>Latest Cybersecurity Resources</h2>
+  <div class="posts">
+    {% for post in site.posts limit:3 %}
+    <article>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt }}</p>
+    </article>
     {% endfor %}
   </div>
 </section>
 
 <style>
-.home-content {
-  max-width: 1200px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
-.feature-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin-top: 3rem;
-}
-.feature-card {
-  background: white;
-  border-radius: 8px;
+.home {
+  max-width: 800px;
+  margin: 0 auto;
   padding: 2rem;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  text-align: center;
 }
-.icon-container {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-.btn-purple {
-  background: #6f42c1;
-  color: white;
-}
-.btn-blue {
-  background: #0366d6;
-  color: white;
+.posts article {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #f6f8fa;
+  border-radius: 6px;
 }
 </style>
