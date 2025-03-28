@@ -3,7 +3,7 @@ layout: about
 title: About
 ---
 
-### About
+ #About
 Welcome to Digital Fortress! We are dedicated to empowering cybersecurity professionals and enthusiasts in the world of cloud security.
 
 ##Who we are
