@@ -1,4 +1,3 @@
-
 # Welcome to Jekyll!
 
 # Site settings
@@ -28,17 +27,20 @@ sitemap: true
 # Theme
 theme: jekyll-theme-primer
 
+# Encoding and Markdown Processing (ADDED/CORRECTED)
+encoding: UTF-8
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
-
-# Markdown settings
-markdown: kramdown
-kmarkdown:
-  input: GFM
 
 # Pagination setting
 paginate: 5
