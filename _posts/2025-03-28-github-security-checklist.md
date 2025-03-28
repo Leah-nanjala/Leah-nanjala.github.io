@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitHub Security Checklist - Protect Your Code in 5 Minutes"
-date: 2024-03-15
+date: 2025-03-28
 categories: [security]
 tags: [github, devops, cybersecurity]
 ---
